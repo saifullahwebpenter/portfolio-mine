@@ -63,6 +63,7 @@
   #herofooter{
     display: block;
     text-align: center;
+    bottom: 50px;
   }
   #herofooter a{
     display: block;
