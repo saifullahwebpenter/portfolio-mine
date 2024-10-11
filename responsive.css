@@ -1,0 +1,150 @@
+@media(max-width:1090px){
+    #about{
+        padding-right:50px;
+    }
+}
+@media(max-width:950px){
+    #about{
+        padding-right:50px;
+        padding-left: 20vw;
+    }
+}
+@media(max-width:800px){
+    #about{
+        padding:100px 30px;
+        margin: 0 auto;
+        width: fit-content;
+    }
+}
+@media(max-width:760px){
+    #about{
+      display: block;
+      text-align: center;
+    }
+    #about img{
+        margin-bottom: 30px;
+      }
+      #heading #secondh1{
+        margin-left: 130px;
+      }
+      .blocktext h5 {
+        font-size: 12px;
+      }
+      #chhotiheadings h5{
+        font-size:11px;
+      }
+      #subscribe{
+        text-align: center;
+      }
+}
+@media(max-width:720px){
+    #herofooter #iconset{
+        display: none;
+    }
+    #second{
+        width: 90%;
+        padding: 100px 0 0 0;
+    }
+}
+@media(max-width:650px){
+    #footer{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #footerright,#footerleft{
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:600px){
+  #heading h1{
+    font-size: 14vw;
+  }
+  #herofooter{
+    display: block;
+    text-align: center;
+  }
+  #herofooter a{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  #textabout{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .elem h5{
+    font-size: 12px;
+  }
+  .elem {
+    padding:50px 0 50px 20px;
+  }
+  .elem h1{
+    font-size: 10vw;
+  }
+}
+@media(max-width:480px){
+    #textabout p{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #textabout a{
+        padding: 8px 16px;
+    }
+    #textabout {
+        width: 100%;
+    }
+    #textabout h5{
+        font-size: 14px;
+    }
+    /* #heading h1{
+        font-size:30px;
+      } */
+      #heading{
+        text-align: center;
+        width: 70%;
+        margin: 100px auto 0 auto;
+      }
+      #heading h1{
+        margin: 0;
+        text-align: center;
+      }
+      #heading #secondh1 {
+        margin-left: 0px;
+      }
+      .blocktext h5 {
+        font-size: 10px;
+        text-align: center;
+      }
+      #chhotiheadings{
+        display: none;
+      }
+      .blocktext {
+        align-items: center;
+      }
+      .bounding{
+        width: auto;
+      }
+      .blocktext h5{
+        margin-top: 50px;
+      }
+}
+@media(max-width:430px){
+    #footerright{
+        display: block;
+        text-align: center;
+    }
+    #footerright a{
+        display: block;
+        margin-bottom: 15px;
+    }
+    #footerleft{
+        order: 2;
+    }
+    #footer{
+        padding-bottom: 10px;
+    }
+    .elem {
+        padding:60px 0 60px 20px;
+      }
+}
